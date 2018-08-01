@@ -1,0 +1,36 @@
+{
+  "name": "dispatch.sh-logs",
+  "version": "1.0.0",
+  "description": "Handles openresty logs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meyskens/dispatch.sh-logs.git"
+  },
+  "author": "Maartje Eyskens",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meyskens/dispatch.sh-logs/issues"
+  },
+  "homepage": "https://github.com/meyskens/dispatch.sh-logs#readme",
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0-beta.54",
+    "@babel/preset-env": "^7.0.0-beta.54",
+    "babel-eslint": "^8.2.6",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-root-import": "^6.1.0",
+    "babel-plugin-syntax-class-properties": "^6.13.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "eslint": "^5.2.0",
+    "mongoose": "^5.2.5"
+  }
+}
